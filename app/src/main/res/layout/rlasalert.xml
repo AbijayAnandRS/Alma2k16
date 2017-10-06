@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:background="@mipmap/background"
+        android:id="@+id/tvw1"
+        android:textColor="#FFFFFAF0"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:gravity="center"
+        android:text="It is an inter-collegiate event. Only one team per college is allowed."
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:background="@mipmap/background"
+        android:id="@+id/tvw2"
+        android:textColor="#FFFFFAF0"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:gravity="center"
+        android:text=">Rule 2"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:background="@mipmap/background"
+            android:id="@+id/tvw3"
+            android:textColor="#FFFFFAF0"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:gravity="center"
+            android:text=">Rule 3"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:background="@mipmap/background"
+            android:id="@+id/tvw4"
+            android:textColor="#FFFFFAF0"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:gravity="center"
+            android:text=">Rule 4"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:background="@mipmap/background"
+            android:id="@+id/tvw5"
+            android:textColor="#FFFFFAF0"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:gravity="center"
+            android:text=">Rule 5"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:background="@mipmap/background"
+            android:id="@+id/tvw6"
+            android:textColor="#FFFFFAF0"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:gravity="center"
+            android:text=">Rule 6"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:background="@mipmap/background"
+            android:id="@+id/tvw7"
+            android:textColor="#FFFFFAF0"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:gravity="center"
+            android:text=">Rule 7"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:background="@mipmap/background"
+            android:id="@+id/tvw8"
+            android:textColor="#FFFFFAF0"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:gravity="center"
+            android:text=">Rule 8"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:background="@mipmap/background"
+            android:id="@+id/tvw9"
+            android:textColor="#FFFFFAF0"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:gravity="center"
+            android:text=">Rule 9"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:background="@mipmap/background"
+            android:id="@+id/tvw10"
+            android:textColor="#FFFFFAF0"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:gravity="center"
+            android:text=">Rule 10"/>
+
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

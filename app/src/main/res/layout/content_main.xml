@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:background="#FFFFFF">
+
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_width="fill_parent" android:orientation="vertical"
+        android:id="@+id/mainnew">
+
+
+    <LinearLayout android:layout_height="250dp" android:layout_width="fill_parent" android:orientation="vertical"  android:background="#FFFFFF">
+
+    <Button android:layout_height="fill_parent"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent" android:background="@mipmap/bt1" android:gravity="bottom" android:textColor="#fffffaf0" android:textStyle="normal" android:typeface="sans" android:textSize="27.0dip" android:id="@+id/iv1" android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ECEFF1">
+
+    <TextView android:layout_height="fill_parent" android:layout_width="fill_parent"
+
+        android:text=" Alma Fiesta, the socio-cultural festival of IIT Bhubaneswar is one of the largest fests of India. It is conducted solely by the efforts of the students of IIT Bhubaneswar and caters primarily to the youth. All the activities of the fest such as Marketing, Publicity, Events management, Design and Decoration, is managed by the students. Alma Fiesta sees participation from a large number of students from over 300 colleges all India with a footfall of around 21,000. In the past, bands like Agnee, Indian Ocean, Bandish, kryptos, Ganesh Talkies and Wajud, and celebrities like Dr. Kumar Vishvas,Pt. Vishwa Mohan Bhatt,Pt. Bhajan Saporee, Krishna Beura, Ira Trivedi and many more have experienced the essence of this fest. Alma Fiesta has attracted sponsorships and associations from various companies due to a huge crowd pullout from various parts of the country. It also has had extensive coverage by the print media. " android:textColor="#ff000000" android:id="@+id/thome" android:layout_marginTop="25.0dip" android:layout_marginLeft="5.0dip"/>
+        </LinearLayout>
+</LinearLayout>
+
+
+
+
+
+</ScrollView>
+
+</android.support.v4.widget.NestedScrollView>

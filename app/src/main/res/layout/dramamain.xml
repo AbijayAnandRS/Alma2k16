@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/drama">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        -<LinearLayout android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" android:layout_width="fill_parent" android:orientation="vertical">
+
+
+        -<LinearLayout android:layout_height="300.0dip" android:layout_width="fill_parent" android:orientation="vertical" android:background="@mipmap/background" android:layout_marginTop="3.0dip">
+
+
+        -<LinearLayout android:layout_height="150.0dip" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="horizontal">
+
+        <Button android:layout_height="100.0dip" android:layout_width="fill_parent" android:layout_weight="0.6" android:background="@mipmap/muteon" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip" android:layout_marginLeft="10.0dip"/>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical" android:layout_weight="0.4">
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="0.9" android:orientation="horizontal" android:layout_weight="0.7" android:layout_marginTop="7.0dip" android:layout_marginRight="5.0dip" android:layout_marginLeft="3.0dip">
+
+        <Button android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.3" android:text="Rules" android:background="@drawable/yui" android:id="@+id/rdr1" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip"/>
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/regdr1"
+            android:layout_width="fill_parent" android:layout_weight="0.3" android:text="Register" android:background="@drawable/yui" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip" android:layout_marginLeft="7.0dip"/>
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/drc1" android:layout_width="fill_parent" android:layout_weight="0.3" android:text="Contact" android:background="@drawable/yui" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip" android:layout_marginLeft="7.0dip"/>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.3">
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:text="MUTE ON" android:gravity="center" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="monospace" android:textSize="25.0dip"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+        <TextView android:layout_height="wrap_content" android:layout_width="fill_parent"
+            android:gravity="center"
+            android:text=" It's our favourite game, we practice it all the time.... for instance, asking pen without giving a single hint to the professor. We are born with shrewdness and extempore skills. Now is just the time to collect all the television knowledge, rejuvenate our skills and feel the excitement of cracking clues and sometime even missing them by nano seconds. Let's play Dumb Charade and put our skills to win fabulous prizes...." android:textColor="#fffffaf0"/>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="300.0dip" android:layout_width="fill_parent" android:orientation="vertical" android:background="@mipmap/background" android:layout_marginTop="3.0dip">
+
+
+        -<LinearLayout android:layout_height="150.0dip" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="horizontal">
+
+        <Button android:layout_height="100.0dip" android:layout_width="fill_parent" android:layout_weight="0.6" android:background="@mipmap/ncircled" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip" android:layout_marginLeft="10.0dip"/>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical" android:layout_weight="0.4">
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="0.9" android:orientation="horizontal" android:layout_weight="0.7" android:layout_marginTop="7.0dip" android:layout_marginRight="5.0dip" android:layout_marginLeft="3.0dip">
+
+        <Button android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.3" android:text="Rules" android:background="@drawable/yui" android:id="@+id/rdr2" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip"/>
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/regdr2"
+            android:layout_width="fill_parent" android:layout_weight="0.3" android:text="Register" android:background="@drawable/yui" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip" android:layout_marginLeft="7.0dip"/>
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/drc2" android:layout_width="fill_parent" android:layout_weight="0.3" android:text="Contact" android:background="@drawable/yui" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip" android:layout_marginLeft="7.0dip"/>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.3">
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:text="N-CIRCLED" android:gravity="center" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="monospace" android:textSize="25.0dip"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+        <TextView android:layout_height="wrap_content" android:layout_width="fill_parent"
+            android:gravity="center"
+            android:text=" They say 'Something is wrong with the world today, but what a few can do?' Now is the time to realise the power of 'a few' and give them food for thought. Give them just a suggestion and leave them introspecting. Here is your chance to punch the evils of the society but with a smiling face. We present to you N-circled, an intercollegiate street play competition.Grab your chance to strike the difference!!! " android:textColor="#fffffaf0"/>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="300.0dip" android:layout_width="fill_parent" android:orientation="vertical" android:background="@mipmap/background" android:layout_marginTop="3.0dip">
+
+
+        -<LinearLayout android:layout_height="150.0dip" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="horizontal">
+
+        <Button android:layout_height="100.0dip" android:layout_width="fill_parent" android:layout_weight="0.6" android:background="@mipmap/faceoff" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip" android:layout_marginLeft="10.0dip"/>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical" android:layout_weight="0.4">
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="0.9" android:orientation="horizontal" android:layout_weight="0.7" android:layout_marginTop="7.0dip" android:layout_marginRight="5.0dip" android:layout_marginLeft="3.0dip">
+
+        <Button android:layout_height="fill_parent"
+
+            android:layout_width="fill_parent" android:layout_weight="0.3" android:text="Rules" android:background="@drawable/yui" android:id="@+id/rdr3" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip"/>
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/regdr3"
+            android:layout_width="fill_parent" android:layout_weight="0.3" android:text="Register" android:background="@drawable/yui" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip" android:layout_marginLeft="7.0dip"/>
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/drc3" android:layout_width="fill_parent" android:layout_weight="0.3" android:text="Contact" android:background="@drawable/yui" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip" android:layout_marginLeft="7.0dip"/>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.3">
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:text="FACE OFF" android:gravity="center" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="monospace" android:textSize="25.0dip"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+        <TextView android:layout_height="wrap_content" android:layout_width="fill_parent"
+            android:foregroundGravity="center"
+            android:text=" Reality is overrated. It is what you make of it. Dramatics is not just role-play, but every bit of 'The Snow white' in her deep stupor waiting to be revived by the love of your soul and the elixir of your emotions. So, ALMA FIESTA brings to your door steps FACE OFF, an intercollegiate stage play event for those who have the heat and will settle for nothing less than a jam packed stage and the highest honour." android:textColor="#fffffaf0"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+
+
+
+
+</android.support.v4.widget.NestedScrollView>

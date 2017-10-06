@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/home">
+
+
+
+
+    <ScrollView android:layout_height="wrap_content" android:layout_width="fill_parent">
+
+
+    <LinearLayout android:layout_height="wrap_content"
+
+
+
+        android:background="#FFFFFF"
+
+
+        android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical" android:layout_marginTop="10dip">
+
+        <LinearLayout android:layout_height="175.0dip"
+            android:layout_marginBottom="10dp"
+            android:layout_width="fill_parent" android:weightSum="0.9" android:orientation="vertical" android:background="#FF808080" android:id="@+id/music" android:textSize="20.0dip" >
+
+            <LinearLayout android:layout_height="match_parent" android:layout_width="150dp"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:layout_weight="0.2" android:background="@mipmap/music1"/>
+
+
+            <LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.7">
+
+                <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:text="MUSIC" android:gravity="bottom" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="20.0dip" android:layout_marginBottom="4.0dip" android:layout_marginLeft="10.0dip"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="horizontal">
+
+
+    <LinearLayout android:layout_height="300.0dip"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="fill_parent" android:weightSum="0.9" android:orientation="vertical" android:layout_weight="0.5" android:background="#FF228B22" android:id="@+id/dance">
+
+    <LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.3"/>
+
+    <LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.3" android:background="@mipmap/dance1"/>
+
+
+    <LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.3">
+
+    <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:text="DANCE" android:gravity="bottom" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="20.0dip" android:layout_marginBottom="4.0dip" android:layout_marginLeft="10.0dip"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical" android:layout_weight="0.5">
+
+
+    <LinearLayout android:layout_height="fill_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="fill_parent" android:weightSum="0.9" android:orientation="vertical" android:layout_weight="0.4" android:background="#FF800080" android:id="@+id/litarary" android:gravity="center" >
+
+    <LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.3"/>
+
+    <LinearLayout android:layout_height="fill_parent" android:layout_width="100.0dip" android:layout_weight="0.3" android:background="@mipmap/literary1" android:layout_gravity="center_horizontal"/>
+
+
+    <LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.3">
+
+    <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:text="LITERARY" android:gravity="bottom" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="20.0dip" android:layout_marginBottom="4.0dip" android:layout_marginLeft="10.0dip"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="fill_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="10dp"
+
+
+
+
+        android:layout_width="fill_parent" android:weightSum="0.9" android:orientation="vertical" android:layout_weight="0.6" android:background="#FF6A5ACD" android:id="@+id/fine_arts" android:gravity="center"  >
+
+    <LinearLayout android:layout_height="fill_parent"
+
+
+        android:layout_width="fill_parent" android:layout_weight="0.3"/>
+
+    <LinearLayout android:layout_height="fill_parent" android:layout_width="100.0dip" android:layout_weight="0.3" android:background="@mipmap/finearts1" android:layout_gravity="center_horizontal"/>
+
+
+    <LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.3">
+
+    <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:text="FINEARTS" android:gravity="bottom" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="20.0dip" android:layout_marginBottom="4.0dip" android:layout_marginLeft="10.0dip"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>
+
+
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="horizontal">
+
+
+    <LinearLayout android:layout_height="100.0dip"
+        android:layout_marginRight="5dp"
+        android:layout_width="fill_parent" android:weightSum="0.9" android:orientation="vertical" android:layout_weight="0.5" android:background="#FFDAA520" android:id="@+id/drama">
+
+    <LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.3"/>
+
+    <LinearLayout android:layout_height="fill_parent" android:layout_width="100.0dip" android:layout_weight="0.3" android:background="@mipmap/drama1" android:layout_gravity="center_horizontal"/>
+
+
+    -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.3">
+
+    <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:text="DRAMA" android:gravity="bottom" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="20.0dip" android:layout_marginBottom="4.0dip" android:layout_marginLeft="10.0dip"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="100.0dip"
+        android:layout_marginLeft="5dp"
+        android:layout_width="fill_parent" android:weightSum="0.9" android:orientation="vertical" android:layout_weight="0.5" android:background="#FFFF4500" android:id="@+id/moree" >
+
+    <LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.3"/>
+
+    <LinearLayout android:layout_height="fill_parent" android:layout_width="100.0dip" android:layout_weight="0.3" android:background="@mipmap/more1" android:layout_gravity="center_horizontal"/>
+
+
+    <LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.3">
+
+    <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:text="MORE" android:gravity="bottom" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="20.0dip" android:layout_marginBottom="4.0dip" android:layout_marginLeft="10.0dip"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>
+</android.support.v4.widget.NestedScrollView>

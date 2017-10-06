@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/music">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        -<LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+
+        -<LinearLayout android:layout_height="300.0dip" android:layout_width="fill_parent" android:orientation="vertical" android:background="@mipmap/background" android:layout_marginTop="3.0dip">
+
+
+        -<LinearLayout android:layout_height="150.0dip" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="horizontal">
+
+        <Button android:layout_height="100.0dip" android:layout_width="fill_parent" android:layout_weight="0.6" android:background="@mipmap/antashkari" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip" android:layout_marginLeft="10.0dip"/>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical" android:layout_weight="0.4">
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="0.9" android:orientation="horizontal" android:layout_weight="0.7" android:layout_marginTop="7.0dip" android:layout_marginRight="5.0dip" android:layout_marginLeft="3.0dip">
+
+        <Button android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.3" android:text="Rules" android:background="@drawable/ght" android:id="@+id/rm1" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip"/>
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/regmu1"
+            android:layout_width="fill_parent" android:layout_weight="0.3" android:text="Register" android:background="@drawable/ght" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip" android:layout_marginLeft="7.0dip"/>
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/mc1"
+            android:layout_width="fill_parent" android:layout_weight="0.3" android:text="Contact" android:background="@drawable/ght" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip" android:layout_marginLeft="7.0dip"/>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.3">
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:text="ANTAKSHARI" android:gravity="center" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="monospace" android:textSize="25.0dip"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+        <TextView android:layout_height="wrap_content" android:layout_width="fill_parent"
+            android:gravity="center"
+            android:text=" Always been a hot shot at lyrics? The favorite snack game of all times is back with a retouch of elegance.This winter, come experience a blind date with filmy music in the spicy mix of Alma Fiesta." android:textColor="#fffffaf0"/>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="300.0dip" android:layout_width="fill_parent" android:orientation="vertical" android:background="@mipmap/background" android:layout_marginTop="3.0dip">
+
+
+        -<LinearLayout android:layout_height="150.0dip" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="horizontal">
+
+        <Button android:layout_height="100.0dip" android:layout_width="fill_parent" android:layout_weight="0.6" android:background="@mipmap/duetto" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip" android:layout_marginLeft="10.0dip"/>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical" android:layout_weight="0.4">
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="0.9" android:orientation="horizontal" android:layout_weight="0.7" android:layout_marginTop="7.0dip" android:layout_marginRight="5.0dip" android:layout_marginLeft="3.0dip">
+
+        <Button android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.3" android:text="Rules" android:background="@drawable/ght" android:id="@+id/rm2" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip"/>
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/regmu2"
+            android:layout_width="fill_parent" android:layout_weight="0.3" android:text="Register" android:background="@drawable/ght" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip" android:layout_marginLeft="7.0dip"/>
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/mc2" android:layout_width="fill_parent" android:layout_weight="0.3" android:text="Contact" android:background="@drawable/ght" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip" android:layout_marginLeft="7.0dip"/>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.3">
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:text="DUETTO" android:gravity="center" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="monospace" android:textSize="25.0dip"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+        <TextView android:layout_height="wrap_content" android:layout_width="fill_parent"
+            android:gravity="center"
+            android:text=" Can you tune it verse after verse like Romeo and Juliette.Can you flow with the tunes with each other to put up an excellent duet perfomance and combat all at sametime,if you really can...then prove it in this edition of AlmaFiesta" android:textColor="#fffffaf0"/>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="300.0dip" android:layout_width="fill_parent" android:orientation="vertical" android:background="@mipmap/background" android:layout_marginTop="3.0dip">
+
+
+        -<LinearLayout android:layout_height="150.0dip" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="horizontal">
+
+        <Button android:layout_height="100.0dip" android:layout_width="fill_parent" android:layout_weight="0.6" android:background="@mipmap/trackthetrack" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip" android:layout_marginLeft="10.0dip"/>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical" android:layout_weight="0.4">
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="0.9" android:orientation="horizontal" android:layout_weight="0.7" android:layout_marginTop="7.0dip" android:layout_marginRight="5.0dip" android:layout_marginLeft="3.0dip">
+
+        <Button android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.3" android:text="Rules" android:background="@drawable/ght" android:id="@+id/rm3" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip"/>
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/regmu3"
+            android:layout_width="fill_parent" android:layout_weight="0.3" android:text="Register" android:background="@drawable/ght" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip" android:layout_marginLeft="7.0dip"/>
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/mc3" android:layout_width="fill_parent" android:layout_weight="0.3" android:text="Contact" android:background="@drawable/ght" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip" android:layout_marginLeft="7.0dip"/>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.3">
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:text="TRACK THE TRACK" android:gravity="center" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="monospace" android:textSize="25.0dip"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+        <TextView android:layout_height="wrap_content" android:layout_width="fill_parent"
+            android:gravity="center"
+            android:text=" Summon the singer from the depths of your heart and sail the seas of glory with pride. Track the track, the solo singing  event gives you the dream space to cast your spells on the crowd ahead." android:textColor="#fffffaf0"/>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="300.0dip" android:layout_width="fill_parent" android:orientation="vertical" android:background="@mipmap/background" android:layout_marginTop="3.0dip">
+
+
+        -<LinearLayout android:layout_height="150.0dip" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="horizontal">
+
+        <Button android:layout_height="100.0dip" android:layout_width="fill_parent" android:layout_weight="0.6" android:background="@mipmap/euphony" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip" android:layout_marginLeft="10.0dip"/>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical" android:layout_weight="0.4">
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="0.9" android:orientation="horizontal" android:layout_weight="0.7" android:layout_marginTop="7.0dip" android:layout_marginRight="5.0dip" android:layout_marginLeft="3.0dip">
+
+        <Button android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.3" android:text="Rules" android:background="@drawable/ght" android:id="@+id/rm4" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip"/>
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/regmu4"
+            android:layout_width="fill_parent" android:layout_weight="0.3" android:text="Register" android:background="@drawable/ght" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip" android:layout_marginLeft="7.0dip"/>
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/mc4"
+            android:layout_width="fill_parent" android:layout_weight="0.3" android:text="Contact" android:background="@drawable/ght" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip" android:layout_marginLeft="7.0dip"/>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.3">
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:text="EUPHONY" android:gravity="center" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="monospace" android:textSize="25.0dip"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+        <TextView android:layout_height="wrap_content" android:layout_width="fill_parent"
+            android:gravity="center"
+            android:text=" Thought of possibility of performing on the same stage as of Rahul Ram and others ??Think it's time for your band to compete with the best bands in India and launch your band to the bigger arena. Judged by best judges and an attractive prize on the top of it to battle for." android:textColor="#fffffaf0"/>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="300.0dip" android:layout_width="fill_parent" android:orientation="vertical" android:background="@mipmap/background" android:layout_marginTop="3.0dip">
+
+
+        -<LinearLayout android:layout_height="150.0dip" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="horizontal">
+
+        <Button android:layout_height="100.0dip" android:layout_width="fill_parent" android:layout_weight="0.6" android:background="@mipmap/unplugged" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip" android:layout_marginLeft="10.0dip"/>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical" android:layout_weight="0.4">
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="0.9" android:orientation="horizontal" android:layout_weight="0.7" android:layout_marginTop="7.0dip" android:layout_marginRight="5.0dip" android:layout_marginLeft="3.0dip">
+
+        <Button android:layout_height="fill_parent" android:layout_width="fill_parent"
+            android:id="@+id/rmu5" android:layout_weight="0.3" android:text="Rules" android:background="@drawable/ght" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip"/>
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/regmu5"
+            android:layout_width="fill_parent" android:layout_weight="0.3" android:text="Register" android:background="@drawable/ght" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip" android:layout_marginLeft="7.0dip"/>
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/mc5" android:layout_width="fill_parent" android:layout_weight="0.3" android:text="Contact" android:background="@drawable/ght" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip" android:layout_marginLeft="7.0dip"/>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.3">
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:text="UNPLUGGED" android:gravity="center" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="monospace" android:textSize="25.0dip"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+        <TextView android:layout_height="wrap_content" android:layout_width="fill_parent"
+            android:gravity="center"
+            android:text=" “We get sucked into the Internet and streaming information, and it's time to just unplug and look within.” So, alma fiesta'16 brings Instrumental Music Competition for all those amateur musicians who love to let rhythm dance on their fingers. " android:textColor="#fffffaf0"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    </ScrollView>
+</android.support.v4.widget.NestedScrollView>

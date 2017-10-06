@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/contactus">
+
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        -<LinearLayout android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" android:layout_width="fill_parent" android:orientation="vertical"
+        android:background="@mipmap/background">
+
+
+        -<LinearLayout android:layout_height="300.0dip" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="horizontal" android:id="@+id/vb1" >
+
+
+        -<LinearLayout android:layout_height="300.0dip" android:layout_width="fill_parent" android:weightSum="0.9" android:orientation="vertical" android:layout_weight="0.5" android:layout_marginRight="1.0dip">
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.3" android:background="#FFFFFf">
+
+        <Button android:layout_height="fill_parent"
+             android:id="@+id/aksyraj" android:layout_width="fill_parent" android:background="@mipmap/aksyrj" android:layout_marginTop="20.0dip" android:layout_marginRight="55.0dip" android:layout_marginLeft="55.0dip"/>
+
+    </LinearLayout>
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.3" android:text="AKSHAY RAJ CHIEF CORDINATOR" android:background="#FFFFFF" android:gravity="center" android:textColor="#ff000000" android:textStyle="bold" android:typeface="monospace" android:textSize="12.0dip"/>
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.3" android:text="SOCIAL AND CREATIVES" android:background="#FFFFFF" android:gravity="center" android:textColor="#FF000000" android:textStyle="bold" android:typeface="monospace" android:textSize="17.0dip" android:layout_marginTop="2.0dip"/>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="300.0dip" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical" android:layout_weight="0.5" android:background="#FFFFFF" android:layout_marginLeft="1.0dip" android:layout_marginBottom="2.0dip">
+
+        <TextView android:layout_height="50.0dip" android:layout_width="fill_parent" android:text="WEB DESIGN" android:gravity="center" android:textColor="#FF000000" android:textStyle="bold" android:typeface="monospace" android:textSize="18.0dip"/>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical">
+
+
+        -<LinearLayout android:layout_height="50.0dip" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="horizontal" android:layout_weight="0.5">
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical" android:layout_weight="0.5">
+
+        <Button android:layout_height="fill_parent"
+             android:id="@+id/vishnu" android:layout_width="fill_parent" android:layout_weight="0.3" android:background="@mipmap/visshnu" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginLeft="10.0dip"/>
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.7" android:text="Vishnu Satheesan" android:gravity="center" android:textColor="#FF000000" android:textStyle="bold" android:typeface="monospace" android:textSize="10.0dip"/>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical" android:layout_weight="0.5">
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/jayanth"
+            android:layout_width="fill_parent" android:layout_weight="0.3" android:background="@mipmap/jayanyt" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginLeft="10.0dip"/>
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.7" android:text="Jayant Meena" android:gravity="center" android:textColor="#FF000000" android:textStyle="bold" android:typeface="monospace" android:textSize="10.0dip"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="50.0dip" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="horizontal" android:layout_weight="0.5">
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical" android:layout_weight="0.5">
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/steevan"
+            android:layout_width="fill_parent" android:layout_weight="0.3" android:background="@mipmap/steevn" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginLeft="10.0dip"/>
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.7" android:text="Steevan" android:gravity="center" android:textColor="#FF000000" android:textStyle="bold" android:typeface="monospace" android:textSize="10.0dip"/>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical" android:layout_weight="0.5">
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/shankar"
+            android:layout_width="fill_parent" android:layout_weight="0.3" android:background="@mipmap/shankr" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginLeft="10.0dip"/>
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.7" android:text="Shankar" android:gravity="center" android:textColor="#FF000000" android:textStyle="bold" android:typeface="monospace" android:textSize="10.0dip"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="120.0dip" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="horizontal">
+
+
+        -<LinearLayout android:layout_height="120.0dip" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="horizontal" android:layout_weight="0.5" android:background="#FFFFFF" android:layout_marginRight="1.0dip">
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical" android:layout_weight="0.5">
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/thushar"
+            android:layout_width="fill_parent" android:layout_weight="0.3" android:background="@mipmap/thusr" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginLeft="10.0dip"/>
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.7" android:text="Tushar Gautam" android:gravity="center" android:textColor="#FF000000" android:textStyle="bold" android:typeface="monospace" android:textSize="10.0dip"/>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical" android:layout_weight="0.5">
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/alokmishra"
+            android:layout_width="fill_parent" android:layout_weight="0.3" android:background="@mipmap/alkmishra" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginLeft="10.0dip"/>
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.7" android:text="Alok Mishra" android:gravity="center" android:textColor="#FF000000" android:textStyle="bold" android:typeface="monospace" android:textSize="10.0dip"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="120.0dip" android:layout_width="fill_parent" android:layout_weight="0.5" android:background="#FFFFFF" android:layout_marginTop="2.0dip" android:layout_marginLeft="1.0dip">
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:text="EVENT MANAGEMENT" android:gravity="center" android:textColor="#FF000000" android:textStyle="bold" android:typeface="monospace" android:textSize="17.0dip"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="120.0dip" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="horizontal">
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.5" android:background="#FFFFFF" android:layout_marginTop="2.0dip" android:layout_marginRight="1.0dip">
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:text="EXTERNAL AFFAIRS AND HOSPITALITY" android:gravity="center" android:textColor="#FF000000" android:textStyle="bold" android:typeface="monospace" android:textSize="17.0dip"/>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="horizontal" android:layout_weight="0.5" android:background="#FFFFFF" android:layout_marginLeft="1.0dip">
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical" android:layout_weight="0.5">
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/piyush"
+            android:layout_width="fill_parent" android:layout_weight="0.3" android:background="@mipmap/piyush" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginLeft="10.0dip"/>
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.7" android:text="Piyush Mittal" android:gravity="center" android:textColor="#FF000000" android:textStyle="bold" android:typeface="monospace" android:textSize="10.0dip"/>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical" android:layout_weight="0.5">
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/saichandrika"
+            android:layout_width="fill_parent" android:layout_weight="0.3" android:background="@mipmap/saichandrika" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginLeft="10.0dip"/>
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.7" android:text="Sai Chandrika" android:gravity="center" android:textColor="#FF000000" android:textStyle="bold" android:typeface="monospace" android:textSize="10.0dip"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="160.0dip" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="horizontal">
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="horizontal" android:layout_weight="0.5" android:background="#FFFFFF" android:layout_marginRight="1.0dip">
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical" android:layout_weight="0.5">
+
+        <Button android:layout_height="120.0dip"
+            android:id="@+id/ayushgarg"
+            android:layout_width="fill_parent" android:layout_weight="0.3" android:background="@mipmap/ayshgarg" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginLeft="10.0dip"/>
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.7" android:text="Aayush Garg" android:gravity="center" android:textColor="#FF000000" android:textStyle="bold" android:typeface="monospace" android:textSize="10.0dip"/>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical" android:layout_weight="0.5">
+
+        <Button android:layout_height="120.0dip"
+            android:id="@+id/rajath"
+            android:layout_width="fill_parent" android:layout_weight="0.3" android:background="@mipmap/rajat" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginLeft="10.0dip"/>
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.7" android:text="Rajat Sinha" android:gravity="center" android:textColor="#FF000000" android:textStyle="bold" android:typeface="monospace" android:textSize="10.0dip"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:orientation="vertical" android:layout_weight="0.5" android:background="#FFFFFF" android:layout_marginTop="1.0dip" android:layout_marginLeft="1.0dip">
+
+        <TextView android:layout_height="50.0dip" android:layout_width="fill_parent" android:text="PUBLICITY" android:gravity="center" android:textColor="#FF000000" android:textStyle="bold" android:typeface="monospace" android:textSize="17.0dip"/>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:orientation="vertical">
+
+        <Button android:layout_height="70.0dip"
+            android:id="@+id/manisha"
+            android:layout_width="fill_parent" android:background="@mipmap/mnsha" android:gravity="center" android:layout_marginRight="55.0dip" android:layout_marginLeft="55.0dip"/>
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:text="Manisha Bandla" android:gravity="center" android:textColor="#FF000000" android:textStyle="bold" android:typeface="monospace" android:textSize="10.0dip"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="120.0dip" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="horizontal">
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="horizontal" android:layout_weight="0.5" android:background="#FFFFFF" android:layout_marginTop="2.0dip">
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical" android:layout_weight="0.5">
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/rawat"
+            android:layout_width="fill_parent" android:layout_weight="0.3" android:background="@mipmap/rwt" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginLeft="10.0dip"/>
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.7" android:text="Sachin Rawat" android:gravity="center" android:textColor="#FF000000" android:textStyle="bold" android:typeface="monospace" android:textSize="10.0dip"/>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical" android:layout_weight="0.5">
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/ankurgarg"
+            android:layout_width="fill_parent" android:layout_weight="0.3" android:background="@mipmap/ankiet" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginLeft="10.0dip"/>
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.7" android:text="Ankur Garg" android:gravity="center" android:textColor="#FF000000" android:textStyle="bold" android:typeface="monospace" android:textSize="10.0dip"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="horizontal" android:layout_weight="0.5" android:background="#FFFFFF">
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical" android:layout_weight="0.5">
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/alokmishra2"
+            android:layout_width="fill_parent" android:layout_weight="0.3" android:background="@mipmap/alkmishra" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginLeft="10.0dip"/>
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.7" android:text="Alok Mishra" android:gravity="center" android:textColor="#FF000000" android:textStyle="bold" android:typeface="monospace" android:textSize="10.0dip"/>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical" android:layout_weight="0.5">
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/mridhul"
+            android:layout_width="fill_parent" android:layout_weight="0.3" android:background="@mipmap/mrithl" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginLeft="10.0dip"/>
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.7" android:text="Mridual Meena" android:gravity="center" android:textColor="#FF000000" android:textStyle="bold" android:typeface="monospace" android:textSize="10.0dip"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+        <TextView android:layout_height="50.0dip" android:layout_width="fill_parent" android:text="DESIGN AND DEVOLEPMENT" android:background="#FFFFFF" android:gravity="center" android:textColor="#FF000000" android:textStyle="bold" android:typeface="monospace" android:textSize="17.0dip" android:layout_marginTop="2.0dip"/>
+
+
+        -<LinearLayout android:layout_height="120.0dip" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="horizontal">
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="horizontal" android:layout_weight="0.5" android:background="#FFFFFF">
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical" android:layout_weight="0.5">
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/abhinavbharathi"
+            android:layout_width="fill_parent" android:layout_weight="0.3" android:background="@mipmap/abinvbrthi" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginLeft="10.0dip"/>
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.7" android:text="Abhinav Bharti" android:gravity="center" android:textColor="#FF000000" android:textStyle="bold" android:typeface="monospace" android:textSize="10.0dip"/>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical" android:layout_weight="0.5">
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/rahul"
+            android:layout_width="fill_parent" android:layout_weight="0.3" android:background="@mipmap/rhl" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginLeft="10.0dip"/>
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.7" android:text="Rahul Shendre" android:gravity="center" android:textColor="#FF000000" android:textStyle="bold" android:typeface="monospace" android:textSize="10.0dip"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="horizontal" android:layout_weight="0.5" android:background="#FFFFFF">
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical" android:layout_weight="0.5">
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/guna"
+            android:layout_width="fill_parent" android:layout_weight="0.3" android:background="@mipmap/guna" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginLeft="10.0dip"/>
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.7" android:text="Guna Shanmukh" android:gravity="center" android:textColor="#FF000000" android:textStyle="bold" android:typeface="monospace" android:textSize="10.0dip"/>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical" android:layout_weight="0.5">
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/kiran"
+            android:layout_width="fill_parent" android:layout_weight="0.3" android:background="@mipmap/kiran" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginLeft="10.0dip"/>
+
+        <TextView android:layout_height="fill_parent"
+
+            android:layout_width="fill_parent" android:layout_weight="0.7" android:text="Kiran Pilli" android:gravity="center" android:textColor="#FF000000" android:textStyle="bold" android:typeface="monospace" android:textSize="10.0dip"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="50.0dip" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="horizontal">
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.5" android:text="WORKSHOP" android:background="#FFFFFF" android:gravity="center" android:textColor="#FF000000" android:textStyle="bold" android:typeface="monospace" android:textSize="17.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="1.0dip"/>
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.5" android:text="ALUMNI AFFAIRS" android:background="#FFFFFF" android:gravity="center" android:textColor="#FF000000" android:textStyle="bold" android:typeface="monospace" android:textSize="17.0dip" android:layout_marginTop="2.0dip" android:layout_marginLeft="1.0dip"/>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="120.0dip" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="horizontal">
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="horizontal" android:layout_weight="0.5" android:background="#FFFFFF" android:layout_marginRight="1.0dip">
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical" android:layout_weight="0.5">
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/ipsita"
+            android:layout_width="fill_parent" android:layout_weight="0.3" android:background="@mipmap/ipsta" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginLeft="10.0dip"/>
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.7" android:text="Ipsitha Ohja" android:gravity="center" android:textColor="#FF000000" android:textStyle="bold" android:typeface="monospace" android:textSize="10.0dip"/>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical" android:layout_weight="0.5">
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/jayanth2"
+            android:layout_width="fill_parent" android:layout_weight="0.3" android:background="@mipmap/jayanyt" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginLeft="10.0dip"/>
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.7" android:text="Jayant Meena" android:gravity="center" android:textColor="#FF000000" android:textStyle="bold" android:typeface="monospace" android:textSize="10.0dip"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="horizontal" android:layout_weight="0.5" android:background="#FFFFFF" android:layout_marginLeft="1.0dip">
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical" android:layout_weight="0.5">
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/aksyraj2"
+            android:layout_width="fill_parent" android:layout_weight="0.3" android:background="@mipmap/aksyrj" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginLeft="10.0dip"/>
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.7" android:text="Akshay Raj" android:gravity="center" android:textColor="#FF000000" android:textStyle="bold" android:typeface="monospace" android:textSize="10.0dip"/>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical" android:layout_weight="0.5">
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/kunjan"
+            android:layout_width="fill_parent" android:layout_weight="0.3" android:background="@mipmap/kungan" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginLeft="10.0dip"/>
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.7" android:text="Kunjan Shrivastava" android:gravity="center" android:textColor="#FF000000" android:textStyle="bold" android:typeface="monospace" android:textSize="10.0dip"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+        <TextView android:layout_height="50.0dip" android:layout_width="fill_parent" android:text="SPONSERSHIP" android:background="#FFFFFF" android:gravity="center" android:textColor="#FF000000" android:textStyle="bold" android:typeface="monospace" android:textSize="17.0dip" android:layout_marginTop="2.0dip"/>
+
+
+        -<LinearLayout android:layout_height="120.0dip" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="horizontal" android:background="#FFFFFF">
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="horizontal" android:layout_weight="0.5">
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical" android:layout_weight="0.5">
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/sarika"
+            android:layout_width="fill_parent" android:layout_weight="0.3" android:background="@mipmap/sarika" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginLeft="10.0dip"/>
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.7" android:text="Sarika Duddella" android:gravity="center" android:textColor="#FF000000" android:textStyle="bold" android:typeface="monospace" android:textSize="10.0dip"/>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical" android:layout_weight="0.5">
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/ruchit"
+            android:layout_width="fill_parent" android:layout_weight="0.3" android:background="@mipmap/rchit" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginLeft="10.0dip"/>
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.7" android:text="Ruchit" android:gravity="center" android:textColor="#FF000000" android:textStyle="bold" android:typeface="monospace" android:textSize="10.0dip"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="horizontal" android:layout_weight="0.5">
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical" android:layout_weight="0.5">
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/guarav"
+            android:layout_width="fill_parent" android:layout_weight="0.3" android:background="@mipmap/guarav" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginLeft="10.0dip"/>
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.7" android:text="Gourav Agarwal" android:gravity="center" android:textColor="#FF000000" android:textStyle="bold" android:typeface="monospace" android:textSize="10.0dip"/>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical" android:layout_weight="0.5">
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/ankitdaas"
+            android:layout_width="fill_parent" android:layout_weight="0.3" android:background="@mipmap/ankitdas" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginLeft="10.0dip"/>
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.7" android:text="Aniket Das" android:gravity="center" android:textColor="#FF000000" android:textStyle="bold" android:typeface="monospace" android:textSize="10.0dip"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+</android.support.v4.widget.NestedScrollView>

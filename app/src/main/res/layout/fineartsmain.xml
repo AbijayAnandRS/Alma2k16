@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/finearts">
+
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        -<LinearLayout android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+
+        android:layout_width="fill_parent" android:orientation="vertical">
+
+
+        -<LinearLayout android:layout_height="300.0dip" android:layout_width="fill_parent" android:orientation="vertical" android:background="@mipmap/background" android:layout_marginTop="3.0dip">
+
+
+        -<LinearLayout android:layout_height="150.0dip" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="horizontal">
+
+        <Button android:layout_height="100.0dip" android:layout_width="fill_parent" android:layout_weight="0.6" android:background="@mipmap/blindstrokes" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip" android:layout_marginLeft="10.0dip"/>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical" android:layout_weight="0.4">
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="0.9" android:orientation="horizontal" android:layout_weight="0.7" android:layout_marginTop="7.0dip" android:layout_marginRight="5.0dip" android:layout_marginLeft="3.0dip">
+
+        <Button android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.3" android:text="Rules" android:background="@drawable/siv" android:id="@+id/rf1" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip"/>
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/regf1"
+            android:layout_width="fill_parent" android:layout_weight="0.3" android:text="Register" android:background="@drawable/siv" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip" android:layout_marginLeft="7.0dip"/>
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/fc1" android:layout_width="fill_parent" android:layout_weight="0.3" android:text="Contact" android:background="@drawable/siv" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip" android:layout_marginLeft="7.0dip"/>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.3">
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:text="BLIND STROKES" android:gravity="center" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="monospace" android:textSize="25.0dip"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+        <TextView android:layout_height="wrap_content" android:layout_width="fill_parent"
+            android:gravity="center_horizontal"
+            android:text=" Test your presence of mind , your coordination and your communication with others. Explain a drawing to a person who cannot see it and see from his drawing how well you communicate and how well the other person coordinates. A team event with a blindfolded artist and his able guide." android:textColor="#fffffaf0"/>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="300.0dip" android:layout_width="fill_parent" android:orientation="vertical" android:background="@mipmap/background" android:layout_marginTop="3.0dip">
+
+
+        -<LinearLayout android:layout_height="150.0dip" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="horizontal">
+
+        <Button android:layout_height="100.0dip" android:layout_width="fill_parent" android:layout_weight="0.6" android:background="@mipmap/shadez" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip" android:layout_marginLeft="10.0dip"/>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical" android:layout_weight="0.4">
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="0.9" android:orientation="horizontal" android:layout_weight="0.7" android:layout_marginTop="7.0dip" android:layout_marginRight="5.0dip" android:layout_marginLeft="3.0dip">
+
+        <Button android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.3" android:text="Rules" android:background="@drawable/siv" android:id="@+id/rf2" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip"/>
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/regf2"
+            android:layout_width="fill_parent" android:layout_weight="0.3" android:text="Register" android:background="@drawable/siv" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip" android:layout_marginLeft="7.0dip"/>
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/fc2" android:layout_width="fill_parent" android:layout_weight="0.3" android:text="Contact" android:background="@drawable/siv" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip" android:layout_marginLeft="7.0dip"/>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.3">
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:text="SHAEDZ" android:gravity="center" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="monospace" android:textSize="25.0dip"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+        <TextView android:layout_height="wrap_content" android:layout_width="fill_parent"
+            android:gravity="center_horizontal"
+            android:text=" Nothing portrays feelings better than your own creation. Add life to your pencil strokes, frame your artwork and enjoy the day with ALMA FIESTA 2016 .Fill the sheet with the best shades of pencil you can and feel the festivity of Alma Fiesta 2016." android:textColor="#fffffaf0"/>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="300.0dip" android:layout_width="fill_parent" android:orientation="vertical" android:background="@mipmap/background" android:layout_marginTop="3.0dip">
+
+
+        -<LinearLayout android:layout_height="150.0dip" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="horizontal">
+
+        <Button android:layout_height="100.0dip" android:layout_width="fill_parent" android:layout_weight="0.6" android:background="@mipmap/leafitup" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip" android:layout_marginLeft="10.0dip"/>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical" android:layout_weight="0.4">
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="0.9" android:orientation="horizontal" android:layout_weight="0.7" android:layout_marginTop="7.0dip" android:layout_marginRight="5.0dip" android:layout_marginLeft="3.0dip">
+
+        <Button android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.3" android:text="Rules" android:background="@drawable/siv" android:id="@+id/rf3" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip"/>
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/regf3"
+            android:layout_width="fill_parent" android:layout_weight="0.3" android:text="Register" android:background="@drawable/siv" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip" android:layout_marginLeft="7.0dip"/>
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/fc3" android:layout_width="fill_parent" android:layout_weight="0.3" android:text="Contact" android:background="@drawable/siv" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip" android:layout_marginLeft="7.0dip"/>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.3">
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:text="LEAF IT UP" android:gravity="center" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="monospace" android:textSize="25.0dip"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+        <TextView android:layout_height="wrap_content" android:layout_width="fill_parent"
+            android:gravity="center_horizontal"
+            android:text=" You miss the childhood days in the gardens and parks. We bring it back to you in a different fashion, make a collage, not from papers but leaves, turn your ideas into collage and relish the beauty of greenery and show your natural creativity." android:textColor="#fffffaf0"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+    </ScrollView>
+</android.support.v4.widget.NestedScrollView>

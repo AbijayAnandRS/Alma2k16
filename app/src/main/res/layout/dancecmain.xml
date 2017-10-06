@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/dance">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="vertical"
+            android:layout_marginTop="5dp">
+
+
+        <LinearLayout android:layout_height="300.0dip"
+            android:layout_width="fill_parent" android:orientation="vertical" android:background="@mipmap/background" android:layout_marginTop="3.0dip">
+
+
+        <LinearLayout android:layout_height="150.0dip" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="horizontal">
+
+        <Button android:layout_height="100.0dip" android:layout_width="fill_parent" android:layout_weight="0.6" android:background="@mipmap/topsy" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip" android:layout_marginLeft="10.0dip"/>
+
+
+        <LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical" android:layout_weight="0.4">
+
+
+        <LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="0.9" android:orientation="horizontal" android:layout_weight="0.7" android:layout_marginTop="7.0dip" android:layout_marginRight="5.0dip" android:layout_marginLeft="3.0dip">
+
+        <Button android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.3" android:text="Rules" android:background="@drawable/oval" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip" android:id="@+id/rdd1"/>
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/reg1dace" android:layout_width="fill_parent" android:layout_weight="0.3" android:text="Register" android:background="@drawable/oval" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip" android:layout_marginLeft="7.0dip"/>
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/dc1" android:layout_width="fill_parent" android:layout_weight="0.3" android:text="Contact" android:background="@drawable/oval" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip" android:layout_marginLeft="7.0dip"/>
+
+    </LinearLayout>
+
+
+        <LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.3">
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:text="TOPSY TURVY" android:gravity="center" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="monospace" android:textSize="25.0dip"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+        <TextView android:layout_height="wrap_content" android:layout_width="fill_parent"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+          android:text="    It is a mesmerizing group dance event guaranteed to set your heart racing.Alma fiesta provides you a national platform to showcase your talent, your moves on a stage that can take you places.Participants throughout the nation to compete with, a great atmosphere filled with excitement and anticipation, a spectacular and extremely enthusiast audience and exciting prizes to top it all, topsyturvy promises to rock your world and give you memories for the rest of your life. " android:textColor="#fffffaf0"/>
+
+    </LinearLayout>
+
+
+        <LinearLayout android:layout_height="300.0dip" android:layout_width="fill_parent" android:orientation="vertical" android:background="@mipmap/background" android:layout_marginTop="3.0dip">
+
+
+        <LinearLayout android:layout_height="150.0dip" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="horizontal">
+
+        <Button android:layout_height="100.0dip" android:layout_width="fill_parent" android:layout_weight="0.6" android:background="@mipmap/ripout" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip" android:layout_marginLeft="10.0dip"/>
+
+
+        <LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical" android:layout_weight="0.4">
+
+
+        <LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="0.9" android:orientation="horizontal" android:layout_weight="0.7" android:layout_marginTop="7.0dip" android:layout_marginRight="5.0dip" android:layout_marginLeft="3.0dip">
+
+        <Button android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.3" android:text="Rules" android:background="@drawable/oval" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip" android:id="@+id/rdtopsy"/>
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/reg2dnce" android:layout_width="fill_parent" android:layout_weight="0.3" android:text="Register" android:background="@drawable/oval" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip" android:layout_marginLeft="7.0dip"/>
+
+        <Button android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.3" android:text="Contact"
+            android:id="@+id/dc2" android:background="@drawable/oval" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip" android:layout_marginLeft="7.0dip"/>
+
+    </LinearLayout>
+
+
+        <LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.3">
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:text="RIPOUT" android:gravity="center" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="monospace" android:textSize="25.0dip"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+        <TextView android:layout_height="wrap_content" android:layout_width="fill_parent"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:text="   Dance to impress! Dance to express! Dance to win hearts of the crowd as Rip Out the solo dance competition gives a platform for individual artists to show off their talent. So just dance! " android:textColor="#fffffaf0"/>
+
+    </LinearLayout>
+
+
+        <LinearLayout android:layout_height="300.0dip" android:layout_width="fill_parent" android:orientation="vertical" android:background="@mipmap/background" android:layout_marginTop="3.0dip">
+
+
+        <LinearLayout android:layout_height="150.0dip" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="horizontal">
+
+        <Button android:layout_height="100.0dip" android:layout_width="fill_parent" android:layout_weight="0.6" android:background="@mipmap/rabnedijodhi" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip" android:layout_marginLeft="10.0dip"/>
+
+
+        <LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical" android:layout_weight="0.4">
+
+
+        <LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="0.9" android:orientation="horizontal" android:layout_weight="0.7" android:layout_marginTop="7.0dip" android:layout_marginRight="5.0dip" android:layout_marginLeft="3.0dip">
+
+        <Button android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.3" android:text="Rules" android:background="@drawable/oval" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip" android:id="@+id/rdd3"/>
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/reg3dnce" android:layout_width="fill_parent" android:layout_weight="0.3" android:text="Register" android:background="@drawable/oval" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip" android:layout_marginLeft="7.0dip"/>
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/dc3" android:layout_width="fill_parent" android:layout_weight="0.3" android:text="Contact" android:background="@drawable/oval" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip" android:layout_marginLeft="7.0dip"/>
+
+    </LinearLayout>
+
+
+        <LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.3">
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:text="RAB NE BANA DI JODI" android:gravity="center" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="monospace" android:textSize="25.0dip"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+        <TextView android:layout_height="wrap_content" android:layout_width="fill_parent"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+
+            android:text="   A duet in dance has the potential to be one of those beautiful moments in life when we can just listen with your eyes. So gear up with your partner to capture the stage and the hearts of the audience. " android:textColor="#fffffaf0"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+</android.support.v4.widget.NestedScrollView>

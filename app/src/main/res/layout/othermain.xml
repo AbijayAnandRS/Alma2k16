@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/other">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        -<LinearLayout android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" android:layout_width="fill_parent" android:orientation="vertical">
+
+
+        -<LinearLayout android:layout_height="300.0dip" android:layout_width="fill_parent" android:orientation="vertical" android:background="@mipmap/background" android:layout_marginTop="3.0dip">
+
+
+        -<LinearLayout android:layout_height="150.0dip" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="horizontal">
+
+        <Button android:layout_height="100.0dip" android:layout_width="fill_parent" android:layout_weight="0.6" android:background="@mipmap/youthquiz" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip" android:layout_marginLeft="10.0dip"/>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical" android:layout_weight="0.4">
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="0.9" android:orientation="horizontal" android:layout_weight="0.7" android:layout_marginTop="7.0dip" android:layout_marginRight="5.0dip" android:layout_marginLeft="3.0dip">
+
+        <Button android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.3" android:text="Rules" android:background="@drawable/sax" android:id="@+id/rmm1" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip"/>
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/regmor1"
+            android:layout_width="fill_parent" android:layout_weight="0.3" android:text="Register" android:background="@drawable/sax" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip" android:layout_marginLeft="7.0dip"/>
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/mrc1"
+            android:layout_width="fill_parent" android:layout_weight="0.3" android:text="Contact" android:background="@drawable/sax" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip" android:layout_marginLeft="7.0dip"/>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.3">
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:text="YOUTH QUIZ" android:gravity="center" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="monospace" android:textSize="25.0dip"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+        <TextView android:layout_height="wrap_content" android:layout_width="fill_parent"
+            android:gravity="center"
+            android:text=" Assign your grey cells to work in this mind sport as to a little knowledge about the world around you can transcend you to the top of the world. A quiz competition enveloping all the arrays of movies, music, dance , gadgets , ads and anything and everything you can think of." android:textColor="#fffffaf0"/>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="300.0dip" android:layout_width="fill_parent" android:orientation="vertical" android:background="@mipmap/background" android:layout_marginTop="3.0dip">
+
+
+        -<LinearLayout android:layout_height="150.0dip" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="horizontal">
+
+        <Button android:layout_height="100.0dip" android:layout_width="fill_parent" android:layout_weight="0.6" android:background="@mipmap/informals" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip" android:layout_marginLeft="10.0dip"/>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical" android:layout_weight="0.4">
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="0.8" android:orientation="horizontal" android:layout_weight="0.7" android:layout_marginTop="7.0dip" android:layout_marginRight="5.0dip" android:layout_marginLeft="3.0dip">
+
+        <Button android:layout_height="fill_parent" android:layout_width="fill_parent"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="14dp"
+            android:layout_weight="0.2" android:text="Register" android:background="@drawable/sax" android:id="@+id/regmor2" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip"/>
+
+        <LinearLayout android:layout_height="fill_parent"
+
+            android:layout_width="fill_parent" android:layout_weight="0.4"/>
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/mrc2"
+            android:layout_width="fill_parent" android:layout_weight="0.2" android:text="Contact" android:background="@drawable/sax" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip" android:layout_marginLeft="14.0dip"
+            android:layout_marginRight="7dp"/>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.3">
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:text="INFORMALS" android:gravity="center" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="monospace" android:textSize="25.0dip"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+        <TextView android:layout_height="wrap_content" android:layout_width="fill_parent"
+            android:gravity="center"
+            android:text=" Everyone is gifted with their own unique talent that can change.The way people look at the world. Alma Fiesta gives Your inherent hidden potential a golden opportunity which Can win hearts all over. An Informal, a set  Of games at the arena outside for fun and games. A moment Is all it takes to reach from the bottom to zenith, we give You a chance to win it." android:textColor="#fffffaf0"/>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="300.0dip" android:layout_width="fill_parent" android:orientation="vertical" android:background="@mipmap/background" android:layout_marginTop="3.0dip">
+
+
+        -<LinearLayout android:layout_height="150.0dip" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="horizontal">
+
+        <Button android:layout_height="100.0dip" android:layout_width="fill_parent" android:layout_weight="0.6" android:background="@mipmap/prayatna" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip" android:layout_marginLeft="10.0dip"/>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical" android:layout_weight="0.4">
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="0.8" android:orientation="horizontal" android:layout_weight="0.7" android:layout_marginTop="7.0dip" android:layout_marginRight="5.0dip" android:layout_marginLeft="3.0dip">
+
+        <Button android:layout_height="fill_parent" android:layout_width="fill_parent"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="14dp"
+            android:layout_weight="0.2" android:text="Register" android:background="@drawable/sax" android:id="@+id/regmor3" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip"/>
+
+        <LinearLayout android:layout_height="fill_parent"
+
+            android:layout_width="fill_parent" android:layout_weight="0.4"/>
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/mrc3"
+            android:layout_width="fill_parent" android:layout_weight="0.2" android:text="Contact" android:background="@drawable/sax" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip" android:layout_marginLeft="14.0dip"
+            android:layout_marginRight="7dp"/>
+
+    </LinearLayout>
+
+
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.3">
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:text="PRAYATNA" android:gravity="center" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="monospace" android:textSize="25.0dip"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+        <TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:text=" 'Prayatna' - a social campaign to inculcate a sense of social responsibility among the bright minds of the 21st century.This movement aims to encourage and support the use of greener ideas and technologies in everyday life. The movement wishes to engage the young minds at school level to the noble cause and  provide them a platform to showcase and nurture their ideas." android:textColor="#fffffaf0"/>
+
+    </LinearLayout>
+
+
+        -<LinearLayout android:layout_height="300.0dip" android:layout_width="fill_parent" android:orientation="vertical" android:background="@mipmap/background" android:layout_marginTop="3.0dip">
+
+
+        -<LinearLayout android:layout_height="150.0dip" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="horizontal">
+
+        <Button android:layout_height="100.0dip" android:layout_width="fill_parent" android:layout_weight="0.6" android:background="@mipmap/youthmarathon" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip" android:layout_marginLeft="10.0dip"/>
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="1.0" android:orientation="vertical" android:layout_weight="0.4">
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:weightSum="0.8" android:orientation="horizontal" android:layout_weight="0.7" android:layout_marginTop="7.0dip" android:layout_marginRight="5.0dip" android:layout_marginLeft="3.0dip">
+
+        <Button android:layout_height="fill_parent" android:layout_width="fill_parent"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="14dp"
+            android:layout_weight="0.2" android:text="Register" android:background="@drawable/sax" android:id="@+id/regmor4" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip"/>
+
+        <LinearLayout android:layout_height="fill_parent"
+
+            android:layout_width="fill_parent" android:layout_weight="0.4"/>
+
+        <Button android:layout_height="fill_parent"
+            android:id="@+id/mrc4"
+            android:layout_width="fill_parent" android:layout_weight="0.2" android:text="Contact" android:background="@drawable/sax" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="sans" android:textSize="10.0dip" android:layout_marginLeft="14.0dip"
+            android:layout_marginRight="7dp"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+        -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.3">
+
+        <TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:text="YOUTH MARATHON" android:gravity="center" android:textColor="#fffffaf0" android:textStyle="bold" android:typeface="monospace" android:textSize="25.0dip"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+        <TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:text=" When your social obligations call, you must listen, because every small effort adds up to a bigger change. So wake up and come along, as Alma Fiesta runs for the cause of Women Safety.Let us show our support to the victimized souls and resilience against the oppressing demons. Lets run!" android:textColor="#fffffaf0"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+</android.support.v4.widget.NestedScrollView>
